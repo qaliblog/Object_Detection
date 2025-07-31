@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.mediapipe.examples.objectdetection
+package com.qali.menu
 
 import android.content.Context
 import android.graphics.*

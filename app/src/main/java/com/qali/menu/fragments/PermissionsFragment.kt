@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.mediapipe.examples.objectdetection.fragments
+package com.qali.menu.fragments
 
 import android.Manifest
 import android.content.Context
@@ -26,7 +26,7 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.Navigation
-import com.google.mediapipe.examples.objectdetection.R
+import com.qali.menu.R
 
 private val PERMISSIONS_REQUIRED = arrayOf(Manifest.permission.CAMERA)
 

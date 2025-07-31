@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp"
+    app:strokeColor="?attr/colorOutline"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <FrameLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="12dp">
+
+            <ImageView
+                android:id="@+id/imageViewThumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="Food thumbnail"
+                android:scaleType="centerCrop"
+                android:src="@drawable/placeholder_food" />
+
+            <ImageView
+                android:id="@+id/imageView3dIndicator"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="top|end"
+                android:layout_margin="4dp"
+                android:background="@drawable/bg_3d_indicator"
+                android:contentDescription="3D model available"
+                android:src="@drawable/ic_3d"
+                android:visibility="gone" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?attr/textAppearanceSubtitle1"
+                android:textStyle="bold"
+                tools:text="Burger" />
+
+            <TextView
+                android:id="@+id/textViewDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textColor="?attr/colorOnSurface"
+                tools:text="Delicious beef burger with fresh vegetables and special sauce" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_category_tag"
+                    android:paddingHorizontal="8dp"
+                    android:paddingVertical="2dp"
+                    android:textAppearance="?attr/textAppearanceCaption"
+                    android:textColor="?attr/colorPrimary"
+                    tools:text="Main Course" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/textViewPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?attr/textAppearanceSubtitle1"
+                    android:textColor="?attr/colorPrimary"
+                    android:textStyle="bold"
+                    tools:text="$12.99" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

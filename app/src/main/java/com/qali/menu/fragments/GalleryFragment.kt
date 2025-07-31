@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.mediapipe.examples.objectdetection.fragments
+package com.qali.menu.fragments
 
 import android.graphics.Bitmap
 import android.graphics.ImageDecoder
@@ -32,9 +32,9 @@ import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
-import com.google.mediapipe.examples.objectdetection.MainViewModel
-import com.google.mediapipe.examples.objectdetection.ObjectDetectorHelper
-import com.google.mediapipe.examples.objectdetection.databinding.FragmentGalleryBinding
+import com.qali.menu.MainViewModel
+import com.qali.menu.ObjectDetectorHelper
+import com.qali.menu.databinding.FragmentGalleryBinding
 import com.google.mediapipe.tasks.vision.core.RunningMode
 import java.util.concurrent.Executors
 import java.util.concurrent.ScheduledExecutorService

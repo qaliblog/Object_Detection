@@ -15,7 +15,7 @@
     ~ limitations under the License.
 -->
 <resources>
-    <string name="app_name">MediaPipe Object Detection</string>
+    <string name="app_name">Menu</string>
 
     <string name="alt_bottom_sheet_chevron">Bottom sheet expandable indicator</string>
 
@@ -36,6 +36,7 @@
     <string name="label_models">ML Model</string>
     <string name="menu_camera">Camera</string>
     <string name="menu_gallery">Gallery</string>
+    <string name="menu_menu">Menu</string>
     <string name="tv_gallery_placeholder">Click + to add an image or a video
         to begin running the object detection.</string>
 

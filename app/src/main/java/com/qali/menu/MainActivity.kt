@@ -14,14 +14,15 @@
  * limitations under the License.
  */
 
-package com.google.mediapipe.examples.objectdetection
+package com.qali.menu
 
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
-import com.google.mediapipe.examples.objectdetection.databinding.ActivityMainBinding
+import com.qali.menu.databinding.ActivityMainBinding
+import com.qali.menu.viewmodel.MenuViewModel
 
 /**
  * Main entry point into our app. This app follows the single-activity pattern, and all
@@ -30,7 +31,7 @@ import com.google.mediapipe.examples.objectdetection.databinding.ActivityMainBin
 class MainActivity : AppCompatActivity() {
 
     private lateinit var activityMainBinding: ActivityMainBinding
-    private val viewModel: MainViewModel by viewModels()
+    private val menuViewModel: MenuViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
