@@ -4,6 +4,7 @@ import android.content.Context
 import android.graphics.Bitmap
 import android.util.Log
 import com.qali.menu.ObjectDetectorHelper
+import com.google.mediapipe.tasks.vision.core.RunningMode
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.io.File
@@ -47,7 +48,7 @@ class Model3DScanner(private val context: Context) {
         return try {
             objectDetectorHelper = ObjectDetectorHelper(
                 context = context,
-                runningMode = ObjectDetectorHelper.RunningMode.LIVE_STREAM
+                runningMode = RunningMode.LIVE_STREAM
             )
             true
         } catch (e: Exception) {
