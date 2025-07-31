@@ -34,6 +34,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import com.qali.menu.MainViewModel
 import com.qali.menu.ObjectDetectorHelper
+import com.qali.menu.OverlayView
 import com.qali.menu.databinding.FragmentGalleryBinding
 import com.google.mediapipe.tasks.vision.core.RunningMode
 import java.util.concurrent.Executors

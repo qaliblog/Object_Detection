@@ -45,6 +45,10 @@ android {
     kotlinOptions {
         jvmTarget = rootProject.ext.java_version
     }
+    
+    kapt {
+        includeCompileClasspath = false
+    }
 
     buildTypes {
         release {

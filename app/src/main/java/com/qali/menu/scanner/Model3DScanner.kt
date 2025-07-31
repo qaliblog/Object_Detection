@@ -3,7 +3,6 @@ package com.qali.menu.scanner
 import android.content.Context
 import android.graphics.Bitmap
 import android.util.Log
-import com.google.ar.core.*
 import com.qali.menu.ObjectDetectorHelper
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
@@ -19,7 +18,6 @@ class Model3DScanner(private val context: Context) {
         private const val MIN_SCAN_POINTS = 1000
     }
     
-    private var arSession: ArSession? = null
     private var objectDetectorHelper: ObjectDetectorHelper? = null
     private var isScanning = false
     private var scanPoints = mutableListOf<Point>()
@@ -47,7 +45,6 @@ class Model3DScanner(private val context: Context) {
     
     fun initializeScanner(): Boolean {
         return try {
-            arSession = ArSession(context)
             objectDetectorHelper = ObjectDetectorHelper(
                 context = context,
                 runningMode = ObjectDetectorHelper.RunningMode.LIVE_STREAM
@@ -65,25 +62,15 @@ class Model3DScanner(private val context: Context) {
             isScanning = true
             scanPoints.clear()
             
-            // Start AR session
-            arSession?.let { session ->
-                val config = Config(session)
-                config.updateMode = Config.UpdateMode.LATEST_CAMERA_IMAGE
-                config.focusMode = Config.FocusMode.AUTO
-                session.configure(config)
-                session.resume()
-            }
-            
-            // Scan from multiple angles
+            // Simulate scanning from multiple angles
             val angles = listOf(0f, 45f, 90f, 135f, 180f, 225f, 270f, 315f)
             var progress = 0f
             
             for (angle in angles) {
                 if (!isScanning) break
                 
-                // Capture frame at this angle
-                val frame = arSession?.update()
-                frame?.let { captureFrame(it, angle) }
+                // Simulate capturing frame at this angle
+                simulateFrameCapture(angle)
                 
                 progress += 1f / angles.size
                 listener.onScanProgress(progress)
@@ -115,24 +102,21 @@ class Model3DScanner(private val context: Context) {
         }
     }
     
-    private fun captureFrame(frame: Frame, angle: Float) {
-        val camera = frame.camera
-        val pose = camera.pose
+    private fun simulateFrameCapture(angle: Float) {
+        // Simulate point cloud data based on angle
+        val radius = 1.0f
+        val height = 0.5f
+        val pointsPerAngle = 50
         
-        // Get point cloud
-        val pointCloud = frame.acquirePointCloud()
-        val points = pointCloud.points
-        
-        for (i in 0 until points.remaining()) {
-            val point = points.get()
-            val confidence = pointCloud.confidences?.get(i) ?: 0f
+        for (i in 0 until pointsPerAngle) {
+            val angleRad = Math.toRadians(angle.toDouble())
+            val x = (radius * Math.cos(angleRad)).toFloat()
+            val z = (radius * Math.sin(angleRad)).toFloat()
+            val y = (i.toFloat() / pointsPerAngle) * height
             
-            if (confidence > SCAN_QUALITY) {
-                scanPoints.add(Point(point.x, point.y, point.z, confidence))
-            }
+            val confidence = 0.8f + (Math.random() * 0.2f).toFloat()
+            scanPoints.add(Point(x, y, z, confidence))
         }
-        
-        pointCloud.release()
     }
     
     private fun generate3DModel(objectName: String): String {
@@ -195,12 +179,10 @@ class Model3DScanner(private val context: Context) {
     
     fun stopScanning() {
         isScanning = false
-        arSession?.pause()
     }
     
     fun release() {
         stopScanning()
-        arSession?.close()
         objectDetectorHelper?.clearObjectDetector()
     }
 }

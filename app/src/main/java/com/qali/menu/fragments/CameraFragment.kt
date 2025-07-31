@@ -37,6 +37,7 @@ import androidx.fragment.app.activityViewModels
 import androidx.navigation.Navigation
 import com.qali.menu.MainViewModel
 import com.qali.menu.ObjectDetectorHelper
+import com.qali.menu.OverlayView
 import com.qali.menu.R
 import com.qali.menu.databinding.FragmentCameraBinding
 import com.google.mediapipe.tasks.vision.core.RunningMode
