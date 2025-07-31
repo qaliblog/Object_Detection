@@ -16,8 +16,7 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.qali.menu">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Enable instant app support -->
     <dist:module dist:instant="true" />
@@ -35,8 +34,6 @@
     <!-- AR Features -->
     <uses-feature android:name="android.hardware.camera.ar" android:required="true" />
     <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
-    <uses-feature android:name="android.hardware.camera" android:required="true" />
-    <uses-feature android:name="android.hardware.camera.any" android:required="true" />
 
     <application
         android:allowBackup="true"

@@ -4,7 +4,6 @@ import android.content.Context
 import android.graphics.Bitmap
 import android.util.Log
 import com.google.ar.core.*
-import com.google.ar.sceneform.rendering.ModelRenderable
 import com.qali.menu.ObjectDetectorHelper
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
