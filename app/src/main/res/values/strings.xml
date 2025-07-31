@@ -49,4 +49,6 @@
         <item>EfficientDet Lite0</item>
         <item>EfficientDet Lite2</item>
     </string-array>
+
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
 </resources>
