@@ -18,12 +18,25 @@ AAPT2 aapt2-8.1.0-10154469-linux Daemon #0: Unexpected error output: /data/data/
 
 This occurs because the AAPT2 binary is incompatible with the Termux shell environment.
 
+### 3. Gradle Cache Corruption Issue
+```
+Failed to store cache entry b6bdac5ea70438d8adca66edd095505d for task ':app:compileDebugKotlin': Could not pack tree 'destinationDirectory': java.io.IOException: Request to write '2245' bytes exceeds size in header of '0' bytes for entry 'tree-destinationDirectory/com/qali/menu/fragments/MenuFragment$setupObservers$3$1.class'
+```
+
+This occurs when the Gradle build cache becomes corrupted and can't properly store compiled classes.
+
 ## Quick Fix (Recommended)
 
-### Option 1: Use the Automated Fix Script
+### Option 1: Use the Automated Fix Scripts
 ```bash
-# Run the automated fix script
+# Run the cache cleanup script first
+./clean_gradle_cache.sh
+
+# Then run the SQLite fix script
 ./fix_sqlite_termux.sh
+
+# Finally run the AAPT2 fix script
+./fix_aapt2_issues.sh
 ```
 
 ### Option 2: Manual Fix Steps
