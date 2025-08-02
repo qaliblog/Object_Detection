@@ -86,7 +86,7 @@
                     android:text="@string/empty_menu_title"
                     android:textSize="20sp"
                     android:textStyle="bold"
-                    android:textColor="?attr/colorOnSurface" />
+                    android:textColor="?android:attr/textColorPrimary" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -94,7 +94,7 @@
                     android:gravity="center"
                     android:text="@string/empty_menu_subtitle"
                     android:textSize="14sp"
-                    android:textColor="?attr/colorOnSurfaceVariant" />
+                    android:textColor="?android:attr/textColorSecondary" />
 
             </LinearLayout>
 
