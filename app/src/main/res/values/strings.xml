@@ -51,4 +51,10 @@
     </string-array>
 
     <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    
+    <!-- Menu Fragment Strings -->
+    <string name="empty_menu_title">No 3D Items Yet</string>
+    <string name="empty_menu_subtitle">Start by scanning objects to create 3D models for your menu</string>
+    <string name="empty_menu_description">Empty menu illustration</string>
+    <string name="add_menu_item">Add new menu item</string>
 </resources>

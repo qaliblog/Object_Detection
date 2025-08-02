@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.qali.menu.app-mergeDebugResources-61:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/home/ubuntu/.gradle/caches/transforms-3/be8ab531dd3798c88e1540388d3ade98/transformed/appcompat-1.6.1/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}
