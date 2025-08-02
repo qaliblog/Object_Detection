@@ -64,6 +64,11 @@ android {
     androidResources {
         noCompress 'tflite'
     }
+    
+    // Disable AAPT2 for Termux compatibility
+    aaptOptions {
+        cruncherEnabled = false
+    }
 
 }
 
