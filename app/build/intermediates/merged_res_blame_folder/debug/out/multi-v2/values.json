@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.qali.menu.app-mergeDebugResources-61:/values/values.xml",
+            "outputFile": "com.qali.menu.app-mergeDebugResources-57:/values/values.xml",
             "map": [
                 {
                     "source": "/home/ubuntu/.gradle/caches/transforms-3/0b6e3394e3326af776260e6efc931a84/transformed/recyclerview-1.3.2/res/values/values.xml",
