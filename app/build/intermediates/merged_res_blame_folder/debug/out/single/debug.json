@@ -1,0 +1,158 @@
+[
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.qali.menu.app-main-65:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.qali.menu.app-main-65:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.qali.menu.app-main-65:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/color_selector_ic.xml.flat",
+        "source": "com.qali.menu.app-main-65:/color/selector_ic.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.qali.menu.app-main-65:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/layout_activity_main.xml.flat",
+        "source": "com.qali.menu.app-main-65:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/drawable_ic_menu.xml.flat",
+        "source": "com.qali.menu.app-main-65:/drawable/ic_menu.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.qali.menu.app-main-65:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/drawable_ic_3d.xml.flat",
+        "source": "com.qali.menu.app-main-65:/drawable/ic_3d.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/drawable_bg_category_tag.xml.flat",
+        "source": "com.qali.menu.app-main-65:/drawable/bg_category_tag.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.qali.menu.app-main-65:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/layout_info_bottom_sheet.xml.flat",
+        "source": "com.qali.menu.app-main-65:/layout/info_bottom_sheet.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/drawable_ic_3d_model.xml.flat",
+        "source": "com.qali.menu.app-main-65:/drawable/ic_3d_model.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/drawable_ic_plus.xml.flat",
+        "source": "com.qali.menu.app-main-65:/drawable/ic_plus.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/menu_menu_bottom_nav.xml.flat",
+        "source": "com.qali.menu.app-main-65:/menu/menu_bottom_nav.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/layout_dialog_add_menu_item.xml.flat",
+        "source": "com.qali.menu.app-main-65:/layout/dialog_add_menu_item.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/drawable_ic_menu_empty.xml.flat",
+        "source": "com.qali.menu.app-main-65:/drawable/ic_menu_empty.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/navigation_nav_graph.xml.flat",
+        "source": "com.qali.menu.app-main-65:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/drawable_ic_add_3d.xml.flat",
+        "source": "com.qali.menu.app-main-65:/drawable/ic_add_3d.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/drawable_media_pipe_banner.xml.flat",
+        "source": "com.qali.menu.app-main-65:/drawable/media_pipe_banner.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/layout_fragment_menu.xml.flat",
+        "source": "com.qali.menu.app-main-65:/layout/fragment_menu.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/drawable_ic_baseline_photo_library_24.xml.flat",
+        "source": "com.qali.menu.app-main-65:/drawable/ic_baseline_photo_library_24.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/drawable_placeholder_food.xml.flat",
+        "source": "com.qali.menu.app-main-65:/drawable/placeholder_food.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.qali.menu.app-main-65:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/drawable_ic_add.xml.flat",
+        "source": "com.qali.menu.app-main-65:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/color_bg_nav_item.xml.flat",
+        "source": "com.qali.menu.app-main-65:/color/bg_nav_item.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.qali.menu.app-main-65:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/drawable_bg_3d_indicator.xml.flat",
+        "source": "com.qali.menu.app-main-65:/drawable/bg_3d_indicator.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/drawable_icn_chevron_up.png.flat",
+        "source": "com.qali.menu.app-main-65:/drawable/icn_chevron_up.png"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.qali.menu.app-main-65:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/layout_item_menu.xml.flat",
+        "source": "com.qali.menu.app-main-65:/layout/item_menu.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/layout_fragment_gallery.xml.flat",
+        "source": "com.qali.menu.app-main-65:/layout/fragment_gallery.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/layout_fragment_camera.xml.flat",
+        "source": "com.qali.menu.app-main-65:/layout/fragment_camera.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/drawable_search_background.xml.flat",
+        "source": "com.qali.menu.app-main-65:/drawable/search_background.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.qali.menu.app-main-65:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/drawable_ic_minus.xml.flat",
+        "source": "com.qali.menu.app-main-65:/drawable/ic_minus.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/drawable_ic_baseline_photo_camera_24.xml.flat",
+        "source": "com.qali.menu.app-main-65:/drawable/ic_baseline_photo_camera_24.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/drawable_ic_baseline_add_24.xml.flat",
+        "source": "com.qali.menu.app-main-65:/drawable/ic_baseline_add_24.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-merged_res-63:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.qali.menu.app-main-65:/mipmap-xxhdpi/ic_launcher_round.png"
+    }
+]

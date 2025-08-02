@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.qali.menu.app-mergeDebugResources-62:/layout/dialog_add_menu_item.xml",
+        "source": "com.qali.menu.app-main-65:/layout/dialog_add_menu_item.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-mergeDebugResources-62:/layout/info_bottom_sheet.xml",
+        "source": "com.qali.menu.app-main-65:/layout/info_bottom_sheet.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-mergeDebugResources-62:/layout/activity_main.xml",
+        "source": "com.qali.menu.app-main-65:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-mergeDebugResources-62:/layout/fragment_gallery.xml",
+        "source": "com.qali.menu.app-main-65:/layout/fragment_gallery.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-mergeDebugResources-62:/layout/item_menu.xml",
+        "source": "com.qali.menu.app-main-65:/layout/item_menu.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-mergeDebugResources-62:/layout/fragment_camera.xml",
+        "source": "com.qali.menu.app-main-65:/layout/fragment_camera.xml"
+    },
+    {
+        "merged": "com.qali.menu.app-mergeDebugResources-62:/layout/fragment_menu.xml",
+        "source": "com.qali.menu.app-main-65:/layout/fragment_menu.xml"
+    }
+]
