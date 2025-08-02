@@ -22,12 +22,12 @@ apply plugin: 'de.undercouch.download'
 
 android {
     namespace "com.qali.menu"
-    compileSdk 29
+    compileSdk 28
     defaultConfig {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         applicationId "com.qali.menu"
-        minSdk 24
-        targetSdk 29
+        minSdk 21
+        targetSdk 28
         versionCode 1
         versionName "1.0.0"
     }
