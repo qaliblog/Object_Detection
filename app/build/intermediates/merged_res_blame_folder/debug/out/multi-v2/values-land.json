@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.qali.menu.app-mergeDebugResources-61:/values-land/values-land.xml",
+            "outputFile": "com.qali.menu.app-mergeDebugResources-57:/values-land/values-land.xml",
             "map": [
                 {
                     "source": "/home/ubuntu/.gradle/caches/transforms-3/be8ab531dd3798c88e1540388d3ade98/transformed/appcompat-1.6.1/res/values-land/values-land.xml",

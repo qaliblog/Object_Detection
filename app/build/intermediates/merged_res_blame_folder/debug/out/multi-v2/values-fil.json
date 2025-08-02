@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.qali.menu.app-mergeDebugResources-61:/values-fil/values-fil.xml",
+            "outputFile": "com.qali.menu.app-mergeDebugResources-57:/values-fil/values-fil.xml",
             "map": [
                 {
                     "source": "/home/ubuntu/.gradle/caches/transforms-3/756f4b9670075056df24ee5bf50dbd3e/transformed/jetified-core-1.40.0/res/values-fil/values.xml",
