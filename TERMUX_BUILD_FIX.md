@@ -1,14 +1,22 @@
 # Termux Build Fix Guide
 
 ## Issue Description
-When building Android projects in Termux on ARM64 architecture, you may encounter the following error:
+When building Android projects in Termux on ARM64 architecture, you may encounter several issues:
 
+### 1. SQLite Native Library Issue
 ```
 Failed to load native library:sqlite-3.36.0-a635d114-4bdb-4d14-adbe-b97e0155bedb-libsqlitejdbc.so. osinfo: Linux/aarch64
 java.lang.UnsatisfiedLinkError: /data/data/com.termux/files/usr/tmp/sqlite-3.36.0-a635d114-4bdb-4d14-adbe-b97e0155bedb-libsqlitejdbc.so: dlopen failed: library "libc.so.6" not found
 ```
 
 This happens because the Kotlin annotation processor (kapt) tries to load a native SQLite library that's incompatible with Termux's ARM64 environment.
+
+### 2. AAPT2 Daemon Issue
+```
+AAPT2 aapt2-8.1.0-10154469-linux Daemon #0: Unexpected error output: /data/data/com.termux/files/home/.gradle/caches/transforms-3/1e832b95d7e5af4a2d638142dd1a3e38/transformed/aapt2-8.1.0-10154469-linux/aapt2[31]: syntax error: unexpected '('
+```
+
+This occurs because the AAPT2 binary is incompatible with the Termux shell environment.
 
 ## Quick Fix (Recommended)
 

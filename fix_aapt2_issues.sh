@@ -22,8 +22,7 @@ kill_aapt2_daemons() {
 # Function to set environment variables
 set_environment() {
     echo "Setting environment variables..."
-    export ANDROID_AAPT2_FROM_MAVEN=false
-    export ANDROID_ENABLE_AAPT2=false
+    export ANDROID_AAPT2_FROM_MAVEN_OVERRIDE=/data/data/com.termux/files/usr/bin/aapt2
     export GRADLE_OPTS="-Dorg.gradle.daemon=false -Dorg.gradle.parallel=false"
     echo "Environment variables set."
 }
@@ -32,7 +31,16 @@ set_environment() {
 check_termux() {
     if [[ -d "/data/data/com.termux" ]]; then
         echo "Detected Termux environment."
-        return 0
+        
+        # Check if aapt2 is available
+        if [[ -f "/data/data/com.termux/files/usr/bin/aapt2" ]]; then
+            echo "Termux aapt2 found at /data/data/com.termux/files/usr/bin/aapt2"
+            return 0
+        else
+            echo "Warning: Termux aapt2 not found. Installing..."
+            pkg install -y aapt2
+            return 0
+        fi
     else
         echo "Not in Termux environment, but applying fixes anyway."
         return 1
