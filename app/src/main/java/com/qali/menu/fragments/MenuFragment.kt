@@ -90,7 +90,7 @@ class MenuFragment : Fragment() {
             showAddItemDialog()
         }
         
-        binding.searchView.setOnQueryTextListener(object : android.widget.SearchView.OnQueryTextListener {
+        binding.searchView.setOnQueryTextListener(object : androidx.appcompat.widget.SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean {
                 query?.let { menuViewModel.searchMenuItems(it) }
                 return true
